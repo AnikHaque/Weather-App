@@ -8,7 +8,7 @@
 }
 
 .container {
-    background: #171717;
+    background: #157347;
     color: #fff;
     padding: 2rem;
     width: 40%;
@@ -24,15 +24,15 @@
 
 input {
     border: none;
-    background: #1e1e1e;
+    background: white;
     outline: none;
-    color: #fff;
+    color: black;
     padding: 0.5rem 2.5rem;
     border-radius: 5px;
 }
 
 input::placeholder {
-    color: #fff;
+    color: black;
 }
 
 .weather__search {
@@ -70,7 +70,7 @@ input::placeholder {
 }
 
 .weather__forecast {
-    background: #1e1e1e;
+    background: black;
     display: inline-block;
     padding: 0.5rem 1rem;
     border-radius: 30px;
@@ -104,7 +104,8 @@ input::placeholder {
 .weather__card {
     display: flex;
     align-items: center;
-    background: #1e1e1e;
+    background: white;
+    color: #157347;
     padding: 1rem;
     border-radius: 10px;
 }
